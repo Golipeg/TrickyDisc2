@@ -1,0 +1,45 @@
+{
+    "name": "InputControles",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "48849066-8585-465e-809d-587f4f531b0a",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "0df4658c-0699-4ce4-b8db-9778e08fe25c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f857bc63-8833-4348-85c3-dc013eb1b83c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9bf2654f-7560-406f-8c35-a4ee992345ea",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
